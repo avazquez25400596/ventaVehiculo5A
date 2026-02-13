@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author ajva_
+ */
+public class cliente {
+    private String RS;
+    private String RFC;
+    private String EMAIL;
+    
+    public cliente(String RS, String RFC, String EMAIL)
+    {
+        this.RS = RS;
+        this.RFC= RFC;
+        this.EMAIL=EMAIL; 
+    }
+    @Override
+    public String toString(){
+        return "Razon social="+this.RS+"\n";
+        return "RFC=" +this.RFC+"\n";
+        return "EMAIL=" +this.EMAIL+"\n";
+
+    }
+    }
+}
