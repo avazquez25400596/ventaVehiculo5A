@@ -20,9 +20,9 @@ public class cliente {
     }
     @Override
     public String toString(){
-        return "Razon social="+this.RS+"\n";
-        return "RFC=" +this.RFC+"\n";
-        return "EMAIL=" +this.EMAIL+"\n";
+        return "Razon social="+this.RS+"\n"
+        + "RFC=" +this.RFC+"\n"
+        + "EMAIL=" +this.EMAIL+"\n";
 
     }
     }
