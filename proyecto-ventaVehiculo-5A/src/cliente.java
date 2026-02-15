@@ -7,12 +7,12 @@
  *
  * @author ajva_
  */
-public class cliente {
+public class Cliente {
     private String RS;
     private String RFC;
     private String EMAIL;
     
-    public cliente(String RS, String RFC, String EMAIL)
+    public Cliente(String RS, String RFC, String EMAIL)
     {
         this.RS = RS;
         this.RFC= RFC;
